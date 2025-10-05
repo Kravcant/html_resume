@@ -1,0 +1,40 @@
+body {
+    padding: 0 100px;
+}
+
+#top {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    border-style: solid;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#info, #education {
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+}
+
+#education {
+    height: 30px;
+}
+
+#courses {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#experience {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
